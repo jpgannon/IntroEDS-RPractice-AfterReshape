@@ -13,7 +13,7 @@ Load necessary packages here.
 
 ```
 
-1. Using the data from McD_Ex_Data.csv, create a plot of stream stage (the level in the stream) over time. Show the data as a line, label axes, and do not use the default ggplot theme.
+1. Using the data from McD_Ex_Data.csv, create a plot of stream stage (the level in the stream) over time. Show the data as a line, label axes, and do not use the default ggplot theme. (10 points)
 
 ```{r}
 
@@ -21,7 +21,7 @@ Load necessary packages here.
 
 2. Use the same data to make a plot with temperature of a pool in the stream (TempC_pool) on the x axis and temperature of the flowing stream (TempC_flow) on the y axis. Show the data as points and color the points using stream stage.
 
-Describe what you see. Are the two temperatures related? Are there conditions where they are less related?
+Describe what you see. Are the two temperatures related? Are there conditions where they are less related? (10 points)
 
 ```{r}
 
@@ -35,7 +35,7 @@ Pivot the data to a long format where you have a column of values that has the t
 
 Use this new tibble to create a ggplot of temperature over time as lines, and color the lines based on whether they are from tempC_flow or tempC_pool.
 
-So basically you want a line plot of temperature through time, where one line shows the temperature in the stream pool and the other shows temperature in the flowing streamwater.
+So basically you want a line plot of temperature through time, where one line shows the temperature in the stream pool and the other shows temperature in the flowing streamwater. (20 points)
 
 ```{r}
 
