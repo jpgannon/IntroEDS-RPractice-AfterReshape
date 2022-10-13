@@ -1,0 +1,45 @@
+---
+title: "RPractice-Homework"
+output: html_document
+date: "2022-10-13"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load necessary packages here.
+```{r}
+
+```
+
+1. Using the data from McD_Ex_Data.csv, create a plot of stream stage (the level in the stream) over time. Show the data as a line, label axes, and do not use the default ggplot theme.
+
+```{r}
+
+```
+
+2. Use the same data to make a plot with temperature of a pool in the stream (TempC_pool) on the x axis and temperature of the flowing stream (TempC_flow) on the y axis. Show the data as points and color the points using stream stage.
+
+Describe what you see. Are the two temperatures related? Are there conditions where they are less related?
+
+```{r}
+
+```
+
+3. This one's tricky! Be patient, careful, and don't be afraid to try stuff and throw it out! That's data science! Be sure to look at the pivot wider and longer notes and/or youtube video.
+
+Create a new dataframe/tibble with just datetime and the two temperature columns.
+
+Pivot the data to a long format where you have a column of values that has the temperature values, and then another column that indicates whether the that record is tempC_flow or tempC_pool.
+
+Use this new tibble to create a ggplot of temperature over time as lines, and color the lines based on whether they are from tempC_flow or tempC_pool.
+
+So basically you want a line plot of temperature through time, where one line shows the temperature in the stream pool and the other shows temperature in the flowing streamwater.
+
+```{r}
+
+```
+
+
+
