@@ -13,7 +13,7 @@ Load necessary packages here.
 
 ```
 
-1. Using the data from McD_Ex_Data.csv, create a plot of stream stage (the level in the stream) over time. Show the data as a line, label axes, and do not use the default ggplot theme. (10 points)
+1. Using the data from McD_Ex_Data.csv, create a plot of stream stage (the water level of the stream) over time. Show the data as a line, label axes, and do not use the default ggplot theme. (10 points)
 
 ```{r}
 
@@ -27,7 +27,7 @@ Describe what you see. Are the two temperatures related? Are there conditions wh
 
 ```
 
-3. This one's tricky! Be patient, careful, and don't be afraid to try stuff and throw it out! That's data science! Be sure to look at the pivot wider and longer notes and/or youtube video.
+3. This one's tricky! Be patient, careful, and don't be afraid to try stuff and throw it out! That's data science! Be sure to look at the pivot wider and longer notes and/or lecture video.
 
 Create a new dataframe/tibble with just datetime and the two temperature columns.
 
